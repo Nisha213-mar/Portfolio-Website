@@ -1006,6 +1006,10 @@ textarea {
     }
 }
 @media  screen and (max-width: 700px) {
+    .contact-info{
+    
+        background-size: cover;
+    }
     .section{
         padding: 7rem 3rem;
     }
@@ -1016,6 +1020,10 @@ textarea {
         font-size: 3rem;
     }
     .map{
-        width: 400px;
+        width: 350px;
+        margin-right: 50px;
+    }
+    .icon{
+        flex-wrap: wrap;
     }
 }
